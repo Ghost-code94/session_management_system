@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.dualsession"
-version = "0.1.0"
+version = "0.1.1"
 
 kotlin {
     jvmToolchain(21) // Java 17 recommended for long-term support
@@ -41,7 +41,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.dualsession"
             artifactId = "dual-session-core"
-            version = "0.1.0"
+            version = "0.1.1"
 
             from(components["java"])
         }
