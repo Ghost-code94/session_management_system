@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.dualsession:dual-session-core:0.1.0")
+    implementation(project(":dual-session-core"))
 
     implementation(kotlin("stdlib"))
 
